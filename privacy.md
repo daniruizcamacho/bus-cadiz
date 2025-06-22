@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Política de Privacidad - Transportes Bahía de Cádiz
+class: privacy-page
 ---
 
 # Política de Privacidad

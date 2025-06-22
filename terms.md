@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Términos y Condiciones - Transportes Bahía de Cádiz
+class: terms-page
 ---
 
 # Términos y Condiciones
