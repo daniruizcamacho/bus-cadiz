@@ -279,3 +279,30 @@ footer ul li {
   padding-left: 0 !important;
   background: none !important;
 }
+
+/* Fix for terms and privacy pages content display */
+section p::before,
+section p::after,
+section li::before,
+section li::after {
+  content: none !important;
+  display: inline !important;
+}
+
+section p, section li {
+  position: relative;
+  display: block;
+  overflow: visible;
+  white-space: normal;
+  text-indent: 0;
+}
+
+/* Override any theme-specific quotes or pseudo-elements */
+section p, section li, section ul, section ol {
+  padding-left: 0;
+}
+
+section li {
+  list-style-type: disc;
+  margin-left: 20px;
+}

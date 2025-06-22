@@ -140,7 +140,7 @@ title: Transportes Bahía de Cádiz
 ## Descarga e instalación
 
 <div class="cta-section">
-  <h2>Próximamente disponible en:</h2>
+  <h2>Disponible en:</h2>
   <div class="app-badge">
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play" height="60">
   </div>
