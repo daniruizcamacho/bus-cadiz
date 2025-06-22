@@ -152,11 +152,11 @@ title: Transportes Bahía de Cádiz
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2rem;" class="footer-content">
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
         <h3 style="color: var(--primary-light);">Transportes Bahía de Cádiz</h3>
-        <p style="line-height: 1.6;">Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida y eficiente.</p>
+        <p style="color: white; line-height: 1.6;">Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida y eficiente.</p>
       </div>
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
         <h3 style="color: var(--primary-light);">Contacto</h3>
-        <p style="margin-bottom: 10px;">¿Tienes alguna pregunta o sugerencia? No dudes en contactarnos.</p>
+        <p style="color: white; margin-bottom: 10px;">¿Tienes alguna pregunta o sugerencia? No dudes en contactarnos.</p>
       </div>
     </div>
     <div style="border-top: 1px solid #444; padding-top: 1rem;">
