@@ -299,7 +299,6 @@ section p, section li {
   overflow: visible;
   white-space: normal;
   text-indent: 0;
-  color: #000000 !important; /* Force black text color */
 }
 
 /* Override any theme-specific quotes or pseudo-elements */
