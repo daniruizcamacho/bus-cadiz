@@ -3,7 +3,7 @@ layout: default
 title: Transportes Bahía de Cádiz
 ---
 
-<div style="background: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%); color: white; padding: 4rem 1rem; text-align: center; margin-bottom: 3rem; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+<div style="background: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%); color: white; padding: 4rem 1rem; text-align: center; margin-top: 3rem; margin-bottom: 3rem; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
   <h1 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Transportes Bahía de Cádiz</h1>
   <h2 style="color: white; font-weight: 400; max-width: 800px; margin: 0 auto 2rem;">Consulta rutas y horarios del bus interurbano en la Bahía de Cádiz de manera fácil y rápida</h2>
   <div style="background-color: rgba(255,255,255,0.1); border-radius: 8px; padding: 1rem; max-width: 300px; margin: 0 auto;">

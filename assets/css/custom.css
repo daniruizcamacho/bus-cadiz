@@ -19,7 +19,8 @@ body {
 
 section {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 2rem auto 0;
+  padding-top: 1rem; /* Add padding at the top */
 }
 
 /* Header styling */
@@ -28,6 +29,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   border-bottom: 1px solid #434343;
   background-image: none;
+  z-index: 1000; /* Ensure the header is above other content */
 }
 
 #header nav {
@@ -75,10 +77,8 @@ section {
 }
 
 /* Title styling */
-#title h1 {
-  color: var(--primary-blue);
-  font-weight: 700;
-  margin-bottom: 0.5rem;
+#title {
+  display: none; /* Hide the default title since we're using a custom hero section */
 }
 
 /* Main content styling */
@@ -177,6 +177,11 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
+/* Wrapper adjustments */
+.wrapper {
+  padding-top: 25px; /* Add padding to the top of the wrapper */
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .screenshots-container {
@@ -185,6 +190,10 @@ ul li {
   
   .features-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .wrapper {
+    padding-top: 20px; /* Slightly less padding on mobile */
   }
 }
 
