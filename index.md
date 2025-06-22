@@ -160,7 +160,7 @@ title: Transportes Bahía de Cádiz
       </div>
     </div>
     <div style="color: white; border-top: 1px solid #444; padding-top: 1rem;">
-      <p>© {{ 'now' | date: "%Y" }} Transportes Bahía de Cádiz. Todos los derechos reservados.</p>
+      <p style="color: white;">>© {{ 'now' | date: "%Y" }} Transportes Bahía de Cádiz. Todos los derechos reservados.</p>
     </div>
   </div>
 </footer>
