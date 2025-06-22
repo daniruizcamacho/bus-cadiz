@@ -206,3 +206,76 @@ ul li {
   border-radius: 0;
   border: none;
 }
+
+/* Footer link fixes to prevent overlapping characters */
+footer a::before,
+footer a::after,
+footer li::before {
+  content: none !important; /* Remove any pseudo-elements that might add arrows */
+}
+
+footer a, footer p {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  white-space: normal;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+/* Additional styling for footer */
+.site-footer {
+  position: relative;
+}
+
+.site-footer a::after,
+.site-footer a::before,
+.site-footer li::before,
+.site-footer li::after,
+.site-footer ul::before,
+.site-footer ul::after {
+  display: none !important;
+  content: '' !important;
+}
+
+.site-footer a:hover {
+  text-decoration: underline !important;
+}
+
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer p {
+  margin: 0 0 10px 0;
+}
+
+/* Remove any quotes or special characters from footer content */
+.footer-content::before,
+.footer-content::after {
+  content: none !important;
+}
+
+/* Specific styling for footer links to prevent arrows */
+.footer-link-item {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.footer-link-item::before,
+.footer-link-item::after,
+.footer-link-item a::before,
+.footer-link-item a::after {
+  display: none !important;
+  content: none !important;
+}
+
+.footer-link-item a {
+  position: relative;
+  padding-left: 0 !important;
+  background: none !important;
+}

@@ -147,25 +147,24 @@ title: Transportes Bahía de Cádiz
   <p style="margin-top: 1.5rem; font-size: 1.2rem;">¡Simplifica tus desplazamientos por la Bahía de Cádiz con nuestra app!</p>
 </div>
 
-<footer style="background-color: #252525; color: #e8e8e8; padding: 2rem 0; margin-top: 3rem; text-align: center; border-radius: 8px;">
+<footer style="background-color: #252525; color: #e8e8e8; padding: 2rem 0; margin-top: 3rem; text-align: center; border-radius: 8px;" class="site-footer">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2rem;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 2rem;" class="footer-content">
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
         <h3 style="color: var(--primary-light);">Transportes Bahía de Cádiz</h3>
-        <p>Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida y eficiente.</p>
+        <p style="line-height: 1.6;">Tu compañero de viaje para moverte por la Bahía de Cádiz de manera rápida y eficiente.</p>
       </div>
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
         <h3 style="color: var(--primary-light);">Enlaces</h3>
         <ul style="list-style-type: none; padding-left: 0;">
-          <li><a href="{{ site.baseurl }}/" style="color: #e8e8e8; text-decoration: none;">Inicio</a></li>
-          <li><a href="{{ site.baseurl }}/terms" style="color: #e8e8e8; text-decoration: none;">Términos y Condiciones</a></li>
-          <li><a href="{{ site.baseurl }}/privacy" style="color: #e8e8e8; text-decoration: none;">Política de Privacidad</a></li>
+          <li class="footer-link-item"><a href="{{ site.baseurl }}/" style="color: #e8e8e8; text-decoration: none; display: inline-block; padding: 4px 0;">Inicio</a></li>
+          <li class="footer-link-item"><a href="{{ site.baseurl }}/terms" style="color: #e8e8e8; text-decoration: none; display: inline-block; padding: 4px 0;">Términos y Condiciones</a></li>
+          <li class="footer-link-item"><a href="{{ site.baseurl }}/privacy" style="color: #e8e8e8; text-decoration: none; display: inline-block; padding: 4px 0;">Política de Privacidad</a></li>
         </ul>
       </div>
       <div style="flex: 1; min-width: 300px; margin-bottom: 1rem;">
         <h3 style="color: var(--primary-light);">Contacto</h3>
-        <p>¿Tienes alguna pregunta o sugerencia? No dudes en contactarnos.</p>
-        <p><a href="mailto:info@transportescadiz.com" style="color: var(--primary-light); text-decoration: none;">info@transportescadiz.com</a></p>
+        <p style="margin-bottom: 10px;">¿Tienes alguna pregunta o sugerencia? No dudes en contactarnos.</p>
       </div>
     </div>
     <div style="border-top: 1px solid #444; padding-top: 1rem;">
