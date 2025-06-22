@@ -1,8 +1,4 @@
 /* Additional styles for terms and privacy pages */
-body {
-  background-color: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%) !important;
-}
-
 .wrapper {
   background-color: linear-gradient(135deg, #1976D2 0%, #0D47A1 100%);
 }
