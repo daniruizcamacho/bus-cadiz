@@ -1,0 +1,62 @@
+/* Custom styles to fix navigation for midnight theme */
+/* Important styles to override any existing styling */
+#header {
+  background: #252525;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid #434343;
+  background-image: none;
+}
+
+#header nav {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  background-color: transparent;
+}
+
+#header nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: none;
+  border: none;
+}
+
+#header nav ul li {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+#header nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #e8e8e8;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  background: none;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+#header nav ul li a:hover {
+  background-color: #333;
+  color: #e8e8e8;
+  text-decoration: none;
+  border: none;
+}
+
+/* Fix any existing button styles that might be overriding */
+#header nav ul li, #header nav ul li a {
+  display: inline-block;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}

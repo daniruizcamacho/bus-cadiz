@@ -6,6 +6,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <!--[if lt IE 9]>
@@ -18,12 +19,12 @@
     {% include head-custom.html %}
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <ul>
-            <li><a href="{{ site.baseurl }}/">Inicio</a></li>
-            <li><a href="{{ site.baseurl }}/terms">Términos y Condiciones</a></li>
-            <li><a href="{{ site.baseurl }}/privacy">Política de Privacidad</a></li>
+      <div id="header" style="background: #252525 !important; background-image: none !important;">
+        <nav style="background: none !important; background-color: transparent !important;">
+          <ul style="background: none !important; border: none !important; display: flex !important;">
+            <li style="background: none !important; border: none !important;"><a href="{{ site.baseurl }}/" style="background: none !important; border: none !important; background-image: none !important;">Inicio</a></li>
+            <li style="background: none !important; border: none !important;"><a href="{{ site.baseurl }}/terms" style="background: none !important; border: none !important; background-image: none !important;">Términos y Condiciones</a></li>
+            <li style="background: none !important; border: none !important;"><a href="{{ site.baseurl }}/privacy" style="background: none !important; border: none !important; background-image: none !important;">Política de Privacidad</a></li>
           </ul>
         </nav>
       </div><!-- end header -->
