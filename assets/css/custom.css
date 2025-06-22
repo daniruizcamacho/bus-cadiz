@@ -313,8 +313,3 @@ section li {
   margin-left: 20px;
   color: #000000 !important; /* Force black text for list items */
 }
-
-/* Fix for section headings in dark mode */
-section h2, section h3, section h4 {
-  color: var(--primary-blue) !important;
-}
