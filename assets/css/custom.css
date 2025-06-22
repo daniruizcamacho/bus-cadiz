@@ -19,7 +19,7 @@ body {
 
 /* Ensure text is visible on terms and privacy pages */
 section p, section li {
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 section {
