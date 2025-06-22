@@ -159,7 +159,7 @@ title: Transportes Bahía de Cádiz
         <p style="color: white; margin-bottom: 10px;">¿Tienes alguna pregunta o sugerencia? No dudes en contactarnos.</p>
       </div>
     </div>
-    <div style="border-top: 1px solid #444; padding-top: 1rem;">
+    <div style="color: white; border-top: 1px solid #444; padding-top: 1rem;">
       <p>© {{ 'now' | date: "%Y" }} Transportes Bahía de Cádiz. Todos los derechos reservados.</p>
     </div>
   </div>
