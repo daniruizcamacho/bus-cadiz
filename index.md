@@ -7,7 +7,7 @@ title: Transportes Bahía de Cádiz
 
 **Consulta rutas y horarios del bus interurbano en la Bahía de Cádiz de manera fácil y rápida**
 
-![Pantalla principal de la aplicación](/assets/indexScreenshot.png)
+![Pantalla principal de la aplicación](./assets/indexScreenshot.png)
 
 ## Sobre la aplicación
 
@@ -23,31 +23,20 @@ Transportes Bahía de Cádiz es una aplicación diseñada para facilitar la cons
 
 ## Capturas de pantalla
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-    <div style="width: 30%; min-width: 250px; margin-bottom: 20px;">
-        <img src="/assets/detailScreenshot.png" alt="Detalle de ruta" style="width: 100%; border-radius: 10px;">
-        <p style="text-align: center;">Detalle de ruta</p>
-    </div>
-    <div style="width: 30%; min-width: 250px; margin-bottom: 20px;">
-        <img src="/assets/detailScheduleScreenshot.png" alt="Horarios detallados" style="width: 100%; border-radius: 10px;">
-        <p style="text-align: center;">Horarios detallados</p>
-    </div>
-    <div style="width: 30%; min-width: 250px; margin-bottom: 20px;">
-        <img src="/assets/stopDetailScreenshot.png" alt="Información de parada" style="width: 100%; border-radius: 10px;">
-        <p style="text-align: center;">Información de parada</p>
-    </div>
-</div>
+### Detalle de ruta
+![Detalle de ruta](./assets/detailScreenshot.png)
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-top: 20px;">
-    <div style="width: 30%; min-width: 250px; margin-bottom: 20px;">
-        <img src="/assets/loadingPageScreenshot.png" alt="Cargando datos" style="width: 100%; border-radius: 10px;">
-        <p style="text-align: center;">Carga de datos</p>
-    </div>
-    <div style="width: 30%; min-width: 250px; margin-bottom: 20px;">
-        <img src="/assets/openMapScreenshot.png" alt="Vista de mapa" style="width: 100%; border-radius: 10px;">
-        <p style="text-align: center;">Vista de mapa</p>
-    </div>
-</div>
+### Horarios detallados
+![Horarios detallados](./assets/detailScheduleScreenshot.png)
+
+### Información de parada
+![Información de parada](./assets/stopDetailScreenshot.png)
+
+### Carga de datos
+![Carga de datos](./assets/loadingPageScreenshot.png)
+
+### Vista de mapa
+![Vista de mapa](./assets/openMapScreenshot.png)
 
 ## 🚌 Para quién es esta aplicación
 
