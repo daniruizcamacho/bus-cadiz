@@ -1,0 +1,64 @@
+/* Additional styles for terms and privacy pages */
+body {
+  background-color: #ffffff !important;
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+section p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+section ul li {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+section h2 {
+  color: #1976D2;
+  border-bottom: 1px solid #BBDEFB;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+/* Force text to be visible */
+* {
+  text-shadow: none !important;
+}
+
+/* Special styling for the terms and privacy pages */
+body.terms-page section p, 
+body.terms-page section li,
+body.privacy-page section p,
+body.privacy-page section li {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Improve list styling */
+body.terms-page section ul,
+body.privacy-page section ul {
+  list-style-type: disc !important;
+  padding-left: 40px !important;
+}
+
+body.terms-page section ul li,
+body.privacy-page section ul li {
+  display: list-item !important;
+  margin-bottom: 10px !important;
+  list-style-type: disc !important;
+}
