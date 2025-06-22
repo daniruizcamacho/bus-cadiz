@@ -1,14 +1,14 @@
 /* Additional styles for terms and privacy pages */
 body {
-  background-color: #ffffff !important;
+  background-color: #000000 !important;
 }
 
 .wrapper {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 section {
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
