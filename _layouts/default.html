@@ -23,13 +23,16 @@
   </head>
   <body{% if page.class %} class="{{ page.class }}"{% endif %}>
       <div id="header" style="background: #252525 !important; background-image: none !important;">
-        <nav style="background: none !important; background-color: transparent !important;">
-          <ul style="background: none !important; border: none !important; display: flex !important;">
-            <li style="background: none !important; border: none !important;"><a href="{{ site.baseurl }}/" style="background: none !important; border: none !important; background-image: none !important;">Inicio</a></li>
-            <li style="background: none !important; border: none !important;"><a href="{{ site.baseurl }}/terms" style="background: none !important; border: none !important; background-image: none !important;">Términos y Condiciones</a></li>
-            <li style="background: none !important; border: none !important;"><a href="{{ site.baseurl }}/privacy" style="background: none !important; border: none !important; background-image: none !important;">Política de Privacidad</a></li>
-          </ul>
-        </nav>
+        <div class="nav-container">
+          <nav style="background: none !important; background-color: transparent !important;">
+            <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-menu">
+              <li><a href="{{ site.baseurl }}/">Inicio</a></li>
+              <li><a href="{{ site.baseurl }}/terms">Términos y Condiciones</a></li>
+              <li><a href="{{ site.baseurl }}/privacy">Política de Privacidad</a></li>
+            </ul>
+          </nav>
+        </div>
       </div><!-- end header -->
 
     <div class="wrapper">
@@ -47,5 +50,16 @@
       </section>
 
     </div>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        menuToggle.addEventListener('click', function() {
+          navMenu.classList.toggle('show');
+        });
+      });
+    </script>
   </body>
 </html>
